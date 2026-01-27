@@ -1,0 +1,54 @@
+#home {
+    height: 700px;
+    background: linear-gradient(to left,lime, lightgreen, green);
+    color: white;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .container {
+    margin-top: 300px;
+}
+
+#home .container h1 {
+    font-size: 60px;
+}
+
+#home .container p {
+    font-size: 30px;
+}
+
+#home .container a {
+    margin-top: 15px;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 5px 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+} 
+#skills {
+    scroll-margin-top: 330px;
+    padding: 0px 10px;
+    background-color: black;
+    height: auto;
+    width: 100%;
+}
+
+#projects {
+    scroll-margin-top: 200px;
+    width: 100%;
+    margin: 200px 0px;
+}
+
+
+#projects .card #quote-generator {
+    margin-top: 2px;
+}
+
+section {
+scroll-margin-top: var(--nav-height);
+}
+
+:root {
+--nav-height: 120px;
+}
